@@ -976,8 +976,8 @@ a.learn, a.keep-playing-button {
 }
 a.learn:visited, a.keep-playing-button {
   }
-a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
-  background-image: linear-gradient(to bottom,#f59a18 0,#f27d13 100%);
+a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover, a.retry-button:hover {
+  background-image: linear-gradient(to bottom,#FFFFFF 0,#000000 100%);
   background-repeat: repeat-x;
 }
 .restart-button, a.retry-button {
@@ -989,7 +989,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   color: #FFFFFF;
   line-height: 42px;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   text-align: center;
   float: right; 
   margin-top: 7px;
@@ -1013,4 +1013,5 @@ a.learn-low {
 a.retry-button {
   margin-left: 10px;
   float: center;
+  border: 1px solid #F8F8F8;
 }
